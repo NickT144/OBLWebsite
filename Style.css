@@ -1,0 +1,35 @@
+body{
+	background: #fdfd96;
+	text-align: center;
+	
+}
+#main{
+	width:1000px;
+	height:600px;
+	background: #037d50;
+    margin: 25px auto;
+	border: dashed 5px #fffd96;
+}
+
+h1{
+	text-align: center;
+	font-family: "Arial";
+	
+	 
+	
+	
+}
+
+p{
+	font-family: "Arial";
+	font-size: 12pt;
+	text-align: left
+}
+
+hr{
+	height:10 px;
+	
+	
+	
+	
+}

@@ -49,9 +49,9 @@
             <p><b>Aspiring Computer Engineer</b></p>
         </header>
     </div>
-
+    <!-- Projects -->
     <div class="w3-main" >
-
+        <!-- Password Saver (Text + Photo)-->
         <div class="w3-row w3-padding-64">
             <div class="w3-twothird w3-container">
                 <h1 class="w3-text-teal">PasswordSaver</h1>
@@ -59,11 +59,11 @@
                 <p>PasswordSaver is a program built in C++ and SQL. It utilizes SQLite to save passwords into a database. The program is light and simple with a command-line user-interface.</p>
             </div>
             <div class="w3-third w3-container">
-                <img src="download.png" alt="Me" class="w3-image" style="display:block;margin:auto" width="400" height="200">
+                <img src="passwordsaver.PNG" alt="Me" class="w3-image" style="display:block;margin:auto" width="400" height="200">
 
             </div>
         </div>
-
+        <!-- SimpleTextFileEncryptor(Text + Photo) -->
         <div class="w3-row">
             <div class="w3-twothird w3-container">
                 <h1 class="w3-text-teal">SimpleTextFileEncryptor</h1>
@@ -71,7 +71,7 @@
                 <p>SimpleTextFileEncryptor is a program built in Java. It utilizes JavaFX and Scenebuilder to create the graphical user interface. The purpose of this program is to encrypt text files using an exclusive or cipher (XOR). The program is light and simple.</p>
             </div>
             <div class="w3-third w3-container">
-                <img src="download.png" alt="Me" class="w3-image" style="display:block;margin:auto" width="400" height="200">
+                <img src="encrypt.png" alt="Me" class="w3-image" style="display:block;margin:auto" width="400" height="200">
             </div>
         </div>
     </div>
@@ -81,39 +81,31 @@
         <!-- End Page Content -->
 </div>
 
-<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<!-- Footer. -->
 <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px">
 
     <!-- Footer end. -->
 </footer>
 
 <script>
-    // Toggle grid padding
-    function myFunction() {
-        var x = document.getElementById("myGrid");
-        if (x.className === "w3-row") {
-            x.className = "w3-row-padding";
-        } else {
-            x.className = x.className.replace("w3-row-padding", "w3-row");
-        }
-    }
 
     // Open and close sidebar
     function w3_open() {
         document.getElementById("mySidebar").style.width = "100%";
         document.getElementById("mySidebar").style.display = "block";
     }
-
     function w3_close() {
         document.getElementById("mySidebar").style.display = "none";
     }
-
+    //switches to about page
     function goToAbout() {
         window.location.href = 'about.html';
     }
+    //Switches to contact page
     function goToContact() {
         window.location.href = 'contact.html';
     }
+    //Switches to home page
     function goToIndex() {
         window.location.href = 'index.html';
     }
